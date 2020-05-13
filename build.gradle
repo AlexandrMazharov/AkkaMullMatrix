@@ -1,4 +1,4 @@
-group 'spbspu'
+group 'MullMart'
 version '1.0-SNAPSHOT'
 
 apply plugin: 'java'

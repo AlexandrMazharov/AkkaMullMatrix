@@ -14,6 +14,12 @@ public class Matrix {
         this.matrix = matrix;
     }
 
+    public Matrix() {
+        matrix = null;
+        numberOfColumns = 0;
+        numberOfRows= 0;
+    }
+
     public int getElement(int i, int j) { //todo: outofbound exception
         return matrix[i][j];
     }

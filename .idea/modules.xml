@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spbspu.iml" filepath="$PROJECT_DIR$/.idea/modules/spbspu.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spbspu_main.iml" filepath="$PROJECT_DIR$/.idea/modules/spbspu_main.iml" group="spbspu" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spbspu_test.iml" filepath="$PROJECT_DIR$/.idea/modules/spbspu_test.iml" group="spbspu" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/AkkaMullMatrix.iml" filepath="$PROJECT_DIR$/.idea/modules/AkkaMullMatrix.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/AkkaMullMatrix.main.iml" filepath="$PROJECT_DIR$/.idea/modules/AkkaMullMatrix.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/AkkaMullMatrix.test.iml" filepath="$PROJECT_DIR$/.idea/modules/AkkaMullMatrix.test.iml" />
     </modules>
   </component>
 </project>

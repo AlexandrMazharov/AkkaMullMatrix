@@ -30,7 +30,8 @@ public class MatrixMultiplierActor extends UntypedActor {
             numberOfUncountedVales = firstMatrix.getNumberOfRows() * secondMatrix.getNumberOfColumns();
             for (int i = 0; i < firstMatrix.getNumberOfRows(); i++) {
                 for (int j = 0; j < secondMatrix.getNumberOfColumns(); j++) {
-                    CalculateSection section = new CalculateSection(i, j, firstMatrix.getRow(i), secondMatrix.getColumn(j));
+                    //CalculateSection section = new CalculateSection(i, j, firstMatrix.getRow(i), secondMatrix.getColumn(j));
+                    CalculateSection section = new CalculateSection(j, i, firstMatrix.getColumn(i), secondMatrix.getRow(j));
                     context().actorOf(Props.create(WorkerActor.class)).tell(section, self());}
            }
         } else if (message instanceof Calculated) {
