@@ -65,13 +65,7 @@ public class Main {
     public static void main(String[] args) throws Exception {
         ActorSystem system = ActorSystem.create("MultiplierSystem");
         ActorRef mainActor = system.actorOf(Props.create(MainActor.class), "myactor");
-        /*
-        Matrix firstMatrix = getMatrix();
-        Matrix secondMatrix = getMatrix();
 
-        Matrix matrix3 = getMatrix();
-        Matrix matrix4 = getMatrix();
-*/
         int r =5;
         int c = 5;
         //Matrix firstMatrix = getRandomMatrix(r,c);

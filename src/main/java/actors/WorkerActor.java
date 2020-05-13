@@ -18,7 +18,7 @@ public class WorkerActor extends UntypedActor {
             Calculated calculated = new Calculated(section.getRowNumber(), section.getColumnNumber(), res);
 
             getSender().tell(calculated, self());
-            
+
 
 
 
